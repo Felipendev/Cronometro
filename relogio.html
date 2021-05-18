@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/fontes/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/fontes/stylesheet.css" type="text/css" charset="utf-8" />
+    </style>
+
+    <title>Cronometro</title>
+</head>
+
+<body id="body">
+    <header id="header">
+        <button id="btn-mobile">Menu
+            <span id="hamburger"></span>
+        </button>
+        <a id="logo" href="#">MyClock.com</a>
+        <nav id="nav">
+            <ul id="menu">
+                <li><a href="#">Despertador</a></li>
+                <li><a href="#">Temporizador</a></li>
+                <li><a href="relogio.html">Cronometro</a></li>
+                <li><a href="#">Relógio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <i id="icon" class="fas fa-chevron-down "></i>
+    <div id="sub-header">
+        <nav id="sub-nav">
+            <ul id="sub-menu">
+                <li class="contrast1"><a href="#">Despertador</a></li>
+                <li class="contrast2"><a href="#">Temporizador</a></li>
+                <li class="contrast1"><a href="relogio.html">Cronometro</a></li>
+                <li class="contrast2"><a href="#">Relógio</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="sidebar">
+        <ul id="sidebar-elements">
+            <li><a href="#"><i class="far fa-bell"></i><span>Despertador</span></a></li>
+            <li><a href="#"><i class="fas fa-hourglass-end"></i><span>Temporizador</span></a></li>
+            <li><a href="relogio.html"><i class="fas fa-stopwatch"></i><span>Cronometro</span></a></li>
+            <li><a href="#"><i class="far fa-clock"></i><span><br>Relógio</span></a></li>
+        </ul>
+    </div>
+    <div id="sidebar-hidden">
+        <a id="logo-sideBar-hidden" href="#">MyClock.com</a>
+        <ul id="sidebar-elements-hidden">
+            <li><a href="#"><i class="far fa-bell"></i><span>Despertador</span></a></li>
+            <li><a href="#"><i class="fas fa-hourglass-end"></i><span>Temporizador</span></a></li>
+            <li><a href="relogio.html"><i class="fas fa-stopwatch"></i><span>Cronometro</span></a></li>
+            <li><a href="#"><i class="far fa-clock"></i><span>Relógio</span></a></li>
+            
+        </ul>
+    </div>
+    <main id="main">
+        <h1 id="counter">00:00:00</h1>
+        <div>
+
+            <!-- <p id="timer">
+                <span id="timer-horas">00:</span>
+                <span id="timer-minutos">00:</span>
+                <span id="timer-segundos">00:</span>
+                <span id="timer-decimos">00</span>
+            </p> -->
+        </div>
+        <div id="btns">
+            <button onclick="start();" id="btn-start" class="bg-green">Start</button>
+            <button onclick="pause();" id="btn-pause" class="bg-yellow">Pause</button>
+            <button onclick="stop();" id="btn-stop" class="bg-red">Stop</button>
+        </div>
+    </main>
+</body>
+<script src="https://kit.fontawesome.com/e648aabfd1.js" crossorigin="anonymous"></script>
+<script src="js/buttonChanges.js"></script>
+<script src="js/subHeader.js"></script>
+<script src="js/cronometro.js"></script>
+
+</html>
