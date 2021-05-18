@@ -16,6 +16,6 @@
 
 - > git clone https://github.com/felipepsicoutlook/Cronometro.git
 
-- > Navigate through the file manager to the portfolio folder
+- > Navigate through the file manager to the Cronometro folder
 
-- > Double-click the index.html file
+- > Double-click the relogio.html file
