@@ -5,7 +5,9 @@
 
 ### Executar Projeto:
 
-- > git clone https://github.com/felipepsicoutlook/Cronometro.git
+```
+git clone https://github.com/felipepsicoutlook/Cronometro.git
+```
 
 - > Navegue pelo gerenciador de arquivos até a pasta Cronometro
 
@@ -14,7 +16,9 @@
 ## English
 ### Run Project:
 
-- > git clone https://github.com/felipepsicoutlook/Cronometro.git
+``` 
+git clone https://github.com/felipepsicoutlook/Cronometro.git 
+```
 
 - > Navigate through the file manager to the Cronometro folder
 
